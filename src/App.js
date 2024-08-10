@@ -45,7 +45,7 @@ const RobotList = () => {
           placeholder="Generate Robot"
           onChange={(e) => setInput(e.target.value)}
         />
-        <button className="px-2 py-1 bg-stone-200 hover:bg-stone-300 active:scale-x-110 active:scale-y-90 transition-transform duration-[5ms] shadow-md rounded font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 border-[1px] border-gray-400">
+        <button className="px-2 py-1 bg-purple-200 hover:bg-purple-300 text-zinc-800 active:scale-x-110 active:scale-y-90 transition-transform duration-[5ms] shadow-md shadow-[rgba(75,75,60,0.26)] rounded font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 border-[1px] border-gray-400">
           Generate
         </button>
       </form>
